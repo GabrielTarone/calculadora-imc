@@ -1,0 +1,100 @@
+#calc-container h2 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: #0f172a;
+  font-size: 2rem;
+}
+
+#calc-container h2::after {
+  content: "Informe seus dados para calcular seu índice de massa corporal";
+  display: block;
+  margin-top: 0.6rem;
+  color: #64748b;
+  font-size: 0.95rem;
+  font-weight: normal;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2rem;
+}
+
+.form-control label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #334155;
+}
+
+.form-control input {
+  padding: 0.9rem 1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1rem;
+  color: #1e293b;
+  transition: 0.2s;
+}
+
+.form-control input:focus {
+  border-color: #2563eb;
+}
+
+.form-control input::placeholder {
+  color: #94a3b8;
+}
+
+.action-control {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.gender-control {
+  margin-bottom: 1.2rem;
+}
+
+.gender-control > label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #334155;
+}
+
+.gender-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.gender-buttons button {
+  background-color: #e2e8f0;
+  color: #334155;
+  border: 2px solid #e2e8f0;
+}
+
+.gender-buttons button:hover {
+  transform: none;
+  opacity: 1;
+}
+
+.gender-buttons .masculine {
+  background-color: #dbeafe;
+  color: #1d4ed8;
+  border-color: #93c5fd;
+}
+
+.gender-buttons .feminine {
+  background-color: #fce7f3;
+  color: #be185d;
+  border-color: #f9a8d4;
+}
+
+.gender-buttons .gender-selected {
+  font-weight: bold;
+}

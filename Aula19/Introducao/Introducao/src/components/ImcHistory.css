@@ -1,0 +1,45 @@
+.history-container {
+  text-align: center;
+}
+
+.history-container h2 {
+  color: #0f172a;
+  margin-bottom: 1.5rem;
+}
+
+.history-container > p {
+  color: #64748b;
+  margin-bottom: 2rem;
+}
+
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  max-height: 450px;
+  overflow-y: auto;
+  padding-right: 0.3rem;
+}
+
+.history-item {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.2rem;
+  text-align: left;
+}
+
+.history-item h3 {
+  color: #2563eb;
+  margin-bottom: 0.8rem;
+}
+
+.history-item p {
+  color: #475569;
+  margin: 0.35rem 0;
+}
+
+.history-item strong {
+  color: #1e293b;
+}
