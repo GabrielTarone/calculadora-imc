@@ -10,7 +10,7 @@ git clone <https://github.com/GabrielTarone/calculadora-imc>
 
 ### 2. Entrar na pasta
 
-cd Introducao
+cd Aula19/Introducao/Introducao
 
 ### 3. Instalar as dependências
 
